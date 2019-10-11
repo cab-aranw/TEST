@@ -16,7 +16,34 @@ public class TEST {
      */
     public static void main(String[] args) 
     {
-        //ME CAGO EN 1000 !!!!!
+        //ME CAGO EN 1000 
+        
+    }
+    
+    // Method to do math operations.
+    public static int operation(int num1, int num2)
+    {
+        // Var declaration.
+        int result = 0;
+        
+        // Adding Two Numbers.
+        result = num1 + num2;
+        
+        
+        return result;
+    }
+    
+    // Method Overload.---> Same name but Differents Parameters. No inheritance needed
+    public static int operation(int num1)
+    {
+        // Var declaration.
+        int result = 0;
+        
+        // Number Squared.
+        result = num1 * num1;
+        
+        
+        return result;
     }
     
 }
